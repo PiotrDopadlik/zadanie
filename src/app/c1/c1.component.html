@@ -1,0 +1,8 @@
+<label for = "liczba">Podaj liczby które chcesz dodać</label>
+<input type = "number" id = "liczba" name = "liczba" [(ngModel)] = liczba1>
+{{liczba1}}
+<label for = "liczba2">Podaj liczby które chcesz dodać</label>
+<input type = "number" id = "liczba" name = "liczba" [(ngModel)] = liczba2>
+{{liczba2}}
+<button (click) = "dodaj()" id = "dodaj">dodaj</button>
+<label for = "liczba2">{{wynik}}</label>
